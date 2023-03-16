@@ -40,12 +40,12 @@ kb.add(KeyboardButton('24. первое начало термодинамики'
 #kb.add(KeyboardButton('25. формулы кпд'))
 kb.add(KeyboardButton('26. законы Кулона'))
 kb.add(KeyboardButton('27. напряженность электрического поля'))
-#kb.add(KeyboardButton('28. A электростатичского поля'))
+kb.add(KeyboardButton('28. работа электростатичского поля'))
 kb.add(KeyboardButton('29. потенциал электрического поля'))
-#kb.add(KeyboardButton('30. электроемкость заряженного проводника, конденстаторов различной формы'))
+kb.add(KeyboardButton('30. электроемкость заряженного проводника, конденстаторов различной формы'))
 kb.add(KeyboardButton('31. энергия электрического поля'))
 kb.add(KeyboardButton('32. з-ны Ома для участка и полной цепи'))
-#kb.add(KeyboardButton('33. формулы силы тока'))
+kb.add(KeyboardButton('33. формулы силы тока'))
 kb.add(KeyboardButton('34. параллельное и последовательное соед. проводников'))
 kb.add(KeyboardButton('35. мощность электрического тока'))
 kb.add(KeyboardButton('36. з-н Джоуля-Ленца'))
@@ -243,11 +243,11 @@ async def send_photo(message: Message):
     await dp.bot.send_photo(chat_id=message.from_user.id,
                             photo='https://profgbo.ru/wp-content/uploads/e/8/1/e8109785e237e43ab1a131915461b1fa.jpeg')
 
-#@dp.message_handler(text='28. A электростатичского поля')
-#async def send_photo(message: Message):
- #   chat_id = message.from_user.id
-  #  await dp.bot.send_photo(chat_id=message.from_user.id,
-   #                         photo='')
+@dp.message_handler(text='28. работа электростатичского поля')
+async def send_photo(message: Message):
+    chat_id = message.from_user.id
+    await dp.bot.send_photo(chat_id=message.from_user.id,
+                            photo='https://present5.com/presentation/30863916_437429168/image-14.jpg')
 
 @dp.message_handler(text='29. потенциал электрического поля')
 async def send_photo(message: Message):
@@ -255,11 +255,11 @@ async def send_photo(message: Message):
     await dp.bot.send_photo(chat_id=message.from_user.id,
                             photo='https://physik.ucoz.ru/_ph/15/712699818.gif')
 
-#@dp.message_handler(text='30. электроемкость заряженного проводника, конденстаторов различной формы')
-#async def send_photo(message: Message):
- #   chat_id = message.from_user.id
-  #  await dp.bot.send_photo(chat_id=message.from_user.id,
-   #                         photo='')
+@dp.message_handler(text='30. электроемкость заряженного проводника, конденстаторов различной формы')
+async def send_photo(message: Message):
+    chat_id = message.from_user.id
+    await dp.bot.send_photo(chat_id=message.from_user.id,
+                            photo='https://uk-parkovaya.ru/wp-content/uploads/0/8/6/086ef710d8a76a073acaa3dfaab94bd6.jpg')
 
 @dp.message_handler(text='31. энергия электрического поля')
 async def send_photo(message: Message):
@@ -273,11 +273,11 @@ async def send_photo(message: Message):
     await dp.bot.send_photo(chat_id=message.from_user.id,
                             photo='https://yarllo.ru/wp-content/uploads/4/2/8/4286b2480faa3bf00e7631f5f2ec9abe.jpeg')
 
-#@dp.message_handler(text='33. формулы силы тока')
-#async def send_photo(message: Message):
- #   chat_id = message.from_user.id
-  #  await dp.bot.send_photo(chat_id=message.from_user.id,
-   #                         photo='')
+@dp.message_handler(text='33. формулы силы тока')
+async def send_photo(message: Message):
+    chat_id = message.from_user.id
+    await dp.bot.send_photo(chat_id=message.from_user.id,
+                            photo='https://electro-scooterz.ru/wp-content/uploads/d/1/2/d12ff3cbf3289752066350d9d23fefd9.jpeg')
 
 @dp.message_handler(text='34. параллельное и последовательное соед. проводников')
 async def send_photo(message: Message):
